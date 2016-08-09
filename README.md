@@ -28,16 +28,20 @@ npm i react-addons-test-utils —save
 [https://github.com/bkonkle/ignore-styles](https://github.com/bkonkle/ignore-styles)
 
 ### 如果不想用test.js文件,那可以直接在package.json的中写:
+```javascript
 "script":{
 "test": "NODE_ENV=test mocha  --require ignore-styles --compilers js:babel-register --recursive src/**/test/*.js",
 "coverage": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
 }
+```
 
 ### 如果想用test.js文件,那就在package.json中写:
+```javascript
 "script":{
 "test": "node test.js",
 "cov": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
 }
+```
 
 ### test.js文件如下
 ```javascript
