@@ -42,7 +42,7 @@ describe('components', () => {
             expect(divOneText).toEqual('发送ActionOne后得到:' + props.actionOneText);
             expect(divTwoText).toEqual('发送ActionTwo后得到:' + props.actionTwoText);
             expect(divThreeText).toEqual('请求中:' + props.fetchTextRequest);
-            expect(divFourText).toEqual('请求成功:' + props.fetchTextSuccess + ',成功得到日期:' + props.fetchDate);
+            expect(divFourText).toEqual('请求成功:' + props.fetchTextSuccess + ',成功得到example中的日期:' + props.fetchDate);
         })
     })
 });

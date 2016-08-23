@@ -4,7 +4,7 @@ var path = require('path');
 var hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true';
 
 var paths = {
-    src:path.join(__dirname, '../src'),
+    src: path.join(__dirname, '../src'),
     components: path.join(__dirname, '../src/components'),
     store: path.join(__dirname, '../src/store'),
     reducers: path.join(__dirname, '../src/reducers'),
@@ -57,6 +57,8 @@ var config = {
             'routes': paths.routes
         }
     },
+
+    //是否启用stylelintrc
     plugins: [
         //new styleLintPlugin({
         //    configFile: '.stylelintrc',

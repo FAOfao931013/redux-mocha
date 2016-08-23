@@ -1,18 +1,11 @@
 import React from 'react';
 
-class rootNode extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    render() {
-        return (
-            <div>
-                {this.props.children}
-            </div>
-        );
-    }
+function rootNode(props) {
+    return <div>{props.children}</div>
 }
+
+rootNode.propTypes = {
+    children: React.PropTypes.any.isRequired
+};
 
 export default rootNode;

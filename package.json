@@ -57,16 +57,8 @@
     "express": "^4.14.0",
     "gulp-postcss": "^6.1.0",
     "ignore-styles": "^4.0.0",
-    "isparta": "^4.0.0",
-    "isparta-loader": "^2.0.0",
     "istanbul": "^0.4.4",
     "istanbul-react": "^1.1.0",
-    "karma": "^1.1.2",
-    "karma-chrome-launcher": "^1.0.1",
-    "karma-coverage": "^1.1.1",
-    "karma-firefox-launcher": "^1.0.0",
-    "karma-mocha": "^1.1.1",
-    "karma-webpack": "^1.7.0",
     "less-loader": "^2.2.3",
     "mocha": "^3.0.0",
     "postcss-less": "^0.9.0",
@@ -91,8 +83,7 @@
     "start": "webpack-dev-server --config ./webpack/dev.js --progress --colors --port 8030",
     "build": "webpack --config ./webpack/prod.js --progress --colors",
     "test": "node test.js",
-    "cov": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js --require ignore-styles --compilers js:babel-register --recursive",
-    "karma": "./node_modules/karma/bin/karma start --single-run"
+    "cov": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js --require ignore-styles --compilers js:babel-register --recursive"
   },
   "author": "fao",
   "license": "ISC"

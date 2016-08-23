@@ -1,5 +1,5 @@
 TN:
-SF:/Users/fuhao/Workspace/fuhao/react-redux-mocha/src/Test/actions.js
+SF:/Users/fuhao/Workspace/fuhao/redux-mocha/src/Test/actions.js
 FN:11,getActionOneText
 FN:18,getActionTwoText
 FN:25,fetchTextRequest
@@ -45,7 +45,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/fuhao/Workspace/fuhao/react-redux-mocha/src/Test/actionTypes.js
+SF:/Users/fuhao/Workspace/fuhao/redux-mocha/src/Test/actionTypes.js
 FNF:0
 FNH:0
 DA:1,1
@@ -58,7 +58,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/fuhao/Workspace/fuhao/react-redux-mocha/src/Test/component.jsx
+SF:/Users/fuhao/Workspace/fuhao/redux-mocha/src/Test/component.jsx
 FN:5,Test
 FN:9,render
 FNF:2
@@ -88,7 +88,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/fuhao/Workspace/fuhao/react-redux-mocha/src/Test/reducer.js
+SF:/Users/fuhao/Workspace/fuhao/redux-mocha/src/Test/reducer.js
 FN:21,(anonymous_3)
 FN:25,(anonymous_4)
 FN:29,(anonymous_5)

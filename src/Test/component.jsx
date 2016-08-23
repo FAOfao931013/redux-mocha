@@ -34,7 +34,7 @@ class Test extends React.Component {
                     onClick={fetchText}>点击我发送fetchText
                 </button>
                 <div>请求中:{fetchTextRequest}</div>
-                <div>请求成功:{fetchTextSuccess},成功得到日期:{fetchDate}</div>
+                <div>请求成功:{fetchTextSuccess},成功得到example中的日期:{fetchDate}</div>
             </div>
         );
     }
