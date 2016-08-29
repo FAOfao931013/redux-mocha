@@ -40,7 +40,7 @@ function fetchTextSuccess(date) {
 export function fetchText() {
     return dispatch => {
         dispatch(fetchTextRequest());
-        return fetch('http://localhost:8030/example.js')
+        return fetch('http://localhost:8030/example.json')
             .then(res => res.json())
             .then(res => {
                 const date = res.date;
