@@ -1,4 +1,6 @@
-### npm install
+###redux测试 [![Build Status](https://travis-ci.org/FAOfao931013/redux-mocha.svg?branch=master)](https://travis-ci.org/FAOfao931013/redux-mocha)
+
+### npm install 
 
 ### npm run dev
 
