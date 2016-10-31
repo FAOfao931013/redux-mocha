@@ -6,6 +6,7 @@
   "dependencies": {
     "babel": "^6.5.2",
     "babel-istanbul": "^0.11.0",
+    "colors": "^1.1.2",
     "css-loader": "^0.23.1",
     "es6-promise": "^3.2.1",
     "eslint-plugin-react": "^5.0.0",
