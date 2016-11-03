@@ -1,6 +1,6 @@
 # Redux Mocha [![Build Status](https://travis-ci.org/FAOfao931013/redux-mocha.svg?branch=master)](https://travis-ci.org/FAOfao931013/redux-mocha)
 
-## 已启用yarn
+### 已启用yarn
 
 ### 安装
 ```
@@ -53,16 +53,16 @@ $ npm i react-addons-test-utils —save
 ### 如果不想用test.js文件,那可以直接在package.json的中写:
 ```javascript
 "script":{
-"test": "NODE_ENV=test mocha  --require ignore-styles --compilers js:babel-register --recursive src/**/test/*.js",
-"coverage": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
+    "test": "NODE_ENV=test mocha  --require ignore-styles --compilers js:babel-register --recursive src/**/test/*.js",
+    "coverage": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
 }
 ```
 
 ### 如果想用test.js文件,那就在package.json中写:
 ```javascript
 "script":{
-"test": "node test.js",
-"cov": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
+    "test": "node test.js",
+    "cov": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover _mocha -- src/**/test/*.js  --require ignore-styles --compilers js:babel-register --recursive"
 }
 ```
 
@@ -76,7 +76,7 @@ const path = process.argv[2] ? process.argv[2] : 'src/**/test/*.js';
 const test = 'NODE_ENV=test mocha  --require ignore-styles --compilers js:babel-register --recursive ' + path;
 
 exec(test, function (error, stdout, stderr) {
-
+    
     console.log(stdout.green);
 
     if (error) {
