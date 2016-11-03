@@ -1,16 +1,37 @@
 # Redux Mocha [![Build Status](https://travis-ci.org/FAOfao931013/redux-mocha.svg?branch=master)](https://travis-ci.org/FAOfao931013/redux-mocha)
 
-### npm install 
+## 已启用yarn
 
-### npm run dev
+### 安装
+```
+$ npm i
+```
 
-### http://localhost:8030/index/#/text
+### 运行项目
+```
+$ npm run dev
+```
+
+### 本地地址
+[http://localhost:8030/index/#/text](http://localhost:8030/index/#/text)
+
+### 运行测试
+```
+$ npm run test
+```
+
+### 覆盖率
+```
+$ npm run cov
+```
 
 ### 先看
 [https://github.com/reactjs/redux/blob/master/docs/recipes/WritingTests.md](https://github.com/reactjs/redux/blob/master/docs/recipes/WritingTests.md)
 
 ### 安装测试所需的包
-npm i react-addons-test-utils —save
+```
+$ npm i react-addons-test-utils —save
+```
 
 ### 整个测试需要 mocha + expect
 [https://github.com/mochajs/mocha](https://github.com/mochajs/moch)
